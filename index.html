@@ -32,25 +32,25 @@
 
     <section class="form-container">
       <form action="">
-        <label class="form-container-label" for="">Name</label>
-        <input class="form-input" type="text">
+        <label class="form-container-label" for="firstname">Name</label>
+        <input class="form-input" type="text" name="firstname" id="firstname">
 
         <label class="form-container-label" for="lastname">Lastname</label>
-        <input class="form-input" type="text">
+        <input class="form-input" type="text" name="lastname" id="lastname">
 
-        <label class="form-container-label"for="email">Email</label>
-        <input class="form-input" type="email">
+        <label class="form-container-label" for="email">Email</label>
+        <input class="form-input" type="email" name="email" id="email">
 
-        <label class="form-container-label">Are you a Support Specialist?</label>
+        <label class="form-container-label" for="are_you_support_specialist_">Are you a Support Specialist?</label>
         <div class="radio-group-container">
           <label class="radio-group-label">Yes</label>
-          <input type="radio" name="support" value="yes">
+          <input type="radio" name="are_you_support_specialist_" value="yes">
 
           <label class="radio-group-label">No</label>
-          <input type="radio" name="support" value="no">
+          <input type="radio" name="are_you_support_specialist_" value="no">
         </div>
 
-        <input type="submit" class="form-submit-button"></input>
+        <input class="form-submit-button">Submit</input>
       </form>
     </section>
   </main>
