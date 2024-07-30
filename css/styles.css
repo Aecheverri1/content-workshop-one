@@ -190,3 +190,50 @@ input[type='radio']:checked {
 .form-submit-button:hover {
     background-color: rgb(165, 36, 0);
 }
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 968px) {
+
+header {
+    justify-content: center;
+}
+
+nav {
+    display: none;
+    margin: auto;
+}
+
+.searchbar {
+    display: none;
+}
+
+main {
+    flex-direction: column;
+    margin-top: 50px;
+    margin: auto;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+}
+.text-container {
+    width: 320px;
+}
+
+.text-container-title {
+    margin-bottom: 30px;
+}
+
+.text-container-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+}
